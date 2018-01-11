@@ -13,9 +13,9 @@ Language:              C# 6.0
 Subject:               Sharing
 Contributor:           ArcGIS Pro SDK Team <arcgisprosdk@esri.com>
 Organization:          Esri, http://www.esri.com
-Date:                  3/24/2017
-ArcGIS Pro:            1.4
-Visual Studio:         2015
+Date:                  6/28/2017
+ArcGIS Pro:            2.0
+Visual Studio:         2015, 2017
 .NET Target Framework: 4.6.1
 ```
 
@@ -31,6 +31,10 @@ Visual Studio:         2015
 
 ![ArcGIS Pro SDK for .NET Icons](https://esri.github.io/arcgis-pro-sdk/images/Home/Image-of-icons.png "ArcGIS Pro SDK Icons")
 
+* [ProSnippets: 2.0 Migration](http://github.com/Esri/arcgis-pro-sdk/wiki/ProSnippets-Migrating-to-2.0)  
+* [ProSnippets: 2.0 Migration Samples](http://github.com/Esri/arcgis-pro-sdk/wiki/ProSnippets-2.0-Migration-Samples)  
+* [ProConcepts: 2.0 Migration](http://github.com/Esri/arcgis-pro-sdk/wiki/ProConcepts-2.0-Migration-Guide)  
+
 ### Samples Data
 
 * Sample data for ArcGIS Pro SDK Community Samples can be downloaded from the [repo releases](https://github.com/Esri/arcgis-pro-sdk-community-samples/releases) page.  
@@ -45,8 +49,8 @@ Visual Studio:         2015
 1. ArcGIS Pro will open.     
 1. Open a new map project.     
 1. Click on the *Upload to ArcGIS Online* tab on the ribbon.    
-1. Within this tab there is a *Show &amp; Upload Vector Tile* button.  Click the button to display the *Show &amp; Upload Vector Tile* dockpane.    
-1. On the *Show &amp; Upload Vector Tile* dockpane click the open file button and open *C:\Data\VectorTileDemos\AlaskaGeology.vtpk*.    
+1. Within this tab there is a *Show & Upload Vector Tile* button.  Click the button to display the *Show & Upload Vector Tile* dockpane.    
+1. On the *Show & Upload Vector Tile* dockpane click the open file button and open *C:\Data\VectorTileDemos\AlaskaGeology.vtpk*.    
 1. Click the *Add To Map* button to add the vector tile package to the current map.    
 ![UI](Screenshots/Screenshot1.png)    
   

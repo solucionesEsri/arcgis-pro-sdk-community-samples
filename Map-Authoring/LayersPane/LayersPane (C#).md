@@ -9,13 +9,13 @@ The Layers pane sample uses a docking pane to query and display feature classes 
 
 <!-- TODO: Fill this section below with metadata about this sample-->
 ```
-Language:              C#
+Language:              C# 6.0
 Subject:               Framework
 Contributor:           ArcGIS Pro SDK Team <arcgisprosdk@esri.com>
 Organization:          Esri, http://www.esri.com
-Date:                  3/24/2017
-ArcGIS Pro:            1.4
-Visual Studio:         2013, 2015
+Date:                  6/28/2017
+ArcGIS Pro:            2.0
+Visual Studio:         2015, 2017
 .NET Target Framework: 4.6.1
 ```
 
@@ -31,6 +31,10 @@ Visual Studio:         2013, 2015
 
 ![ArcGIS Pro SDK for .NET Icons](https://esri.github.io/arcgis-pro-sdk/images/Home/Image-of-icons.png "ArcGIS Pro SDK Icons")
 
+* [ProSnippets: 2.0 Migration](http://github.com/Esri/arcgis-pro-sdk/wiki/ProSnippets-Migrating-to-2.0)  
+* [ProSnippets: 2.0 Migration Samples](http://github.com/Esri/arcgis-pro-sdk/wiki/ProSnippets-2.0-Migration-Samples)  
+* [ProConcepts: 2.0 Migration](http://github.com/Esri/arcgis-pro-sdk/wiki/ProConcepts-2.0-Migration-Guide)  
+
 ### Samples Data
 
 * Sample data for ArcGIS Pro SDK Community Samples can be downloaded from the [repo releases](https://github.com/Esri/arcgis-pro-sdk-community-samples/releases) page.  
@@ -44,7 +48,7 @@ Visual Studio:         2013, 2015
 1. Open the "C:\Data\Interacting with Maps\Interacting with Maps.aprx" project which contains the required data needed for this sample.  
 1. Click on the Add-in tab on the ribbon and then on the "Open LayersPane" button.  
 1. On the "layer pane" click the 'Search button' and the pane's grid will display the selected feature layer's columns and data.  
-1. Select "Crimes" on the layer dropdown and enter a valid SQL where clause like 'objectid &lt; 100' in the text box next to the search button and click Search again.  
+1. Select "Crimes" on the layer dropdown and enter a valid SQL where clause like 'objectid < 100' in the text box next to the search button and click Search again.  
 ![UI](Screenshots/Screen1.png)  
   
 1. The data displayed is now restricted to records that match the given where clause.  
